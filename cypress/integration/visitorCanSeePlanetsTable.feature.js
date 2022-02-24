@@ -1,5 +1,12 @@
 describe("A visitor visiting the main view of the application", () => {
   before(() => {
+    cy.intercept(
+      "POST",
+      "https://swapi-graphql.netlify.app/.netlify/functions/index",
+      {
+        fixture: "allPlanetsResponse"
+      }
+    );
     cy.visit("/");
   });
 
@@ -21,7 +28,14 @@ describe("A visitor visiting the main view of the application", () => {
     });
 
     it("is expected to see 'Population' column", () => {
-      cy.get("[data-cy=pt-population-header]").should("contain.text", "Population");
+      cy.get("[data-cy=pt-population-header]").should(
+        "contain.text",
+        "Population"
+      );
     });
+  });
+
+  it("is expected to see a table of 60 planets", () => {
+    cy.get("[data-cy=pt-body]").children().should("have.length", 60);
   });
 });

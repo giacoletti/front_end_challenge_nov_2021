@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Planets from "../modules/Planets";
 import {
   Table,
   TableBody,
@@ -10,6 +11,35 @@ import {
 } from "@mui/material";
 
 const PlanetsTable = () => {
+  const [planets, setPlanets] = useState([]);
+
+  const fetchPlanets = async () => {
+    const response = await Planets.allPlanets();
+    if (!response.message) {
+      setPlanets(response);
+    }
+  };
+
+  useEffect(() => {
+    fetchPlanets();
+  }, []);
+
+  const planetsRows = planets.map((planet) => {
+    return (
+      <TableRow
+        key={planet.id}
+        sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+      >
+        <TableCell component="th" scope="row">
+          {planet.name}
+        </TableCell>
+        <TableCell align="right">{planet.gravity}</TableCell>
+        <TableCell align="right">{planet.diameter}</TableCell>
+        <TableCell align="right">{planet.population}</TableCell>
+      </TableRow>
+    );
+  });
+
   return (
     <TableContainer component={Paper}>
       <Table data-cy="planets-table" sx={{ minWidth: 650 }}>
@@ -27,22 +57,7 @@ const PlanetsTable = () => {
             </TableCell>
           </TableRow>
         </TableHead>
-        <TableBody>
-          {/* {rows.map((row) => (
-            <TableRow
-              key={row.name}
-              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
-            >
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
-              <TableCell align="right">{row.calories}</TableCell>
-              <TableCell align="right">{row.fat}</TableCell>
-              <TableCell align="right">{row.carbs}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
-            </TableRow>
-          ))} */}
-        </TableBody>
+        <TableBody data-cy="pt-body">{planetsRows}</TableBody>
       </Table>
     </TableContainer>
   );

@@ -1,0 +1,428 @@
+{
+  "data": {
+    "allPlanets": {
+      "planets": [
+        {
+          "id": "cGxhbmV0czox",
+          "name": "Tatooine",
+          "gravity": "1 standard",
+          "diameter": 10465,
+          "population": 200000
+        },
+        {
+          "id": "cGxhbmV0czoy",
+          "name": "Alderaan",
+          "gravity": "1 standard",
+          "diameter": 12500,
+          "population": 2000000000
+        },
+        {
+          "id": "cGxhbmV0czoz",
+          "name": "Yavin IV",
+          "gravity": "1 standard",
+          "diameter": 10200,
+          "population": 1000
+        },
+        {
+          "id": "cGxhbmV0czo0",
+          "name": "Hoth",
+          "gravity": "1.1 standard",
+          "diameter": 7200,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo1",
+          "name": "Dagobah",
+          "gravity": "N/A",
+          "diameter": 8900,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo2",
+          "name": "Bespin",
+          "gravity": "1.5 (surface), 1 standard (Cloud City)",
+          "diameter": 118000,
+          "population": 6000000
+        },
+        {
+          "id": "cGxhbmV0czo3",
+          "name": "Endor",
+          "gravity": "0.85 standard",
+          "diameter": 4900,
+          "population": 30000000
+        },
+        {
+          "id": "cGxhbmV0czo4",
+          "name": "Naboo",
+          "gravity": "1 standard",
+          "diameter": 12120,
+          "population": 4500000000
+        },
+        {
+          "id": "cGxhbmV0czo5",
+          "name": "Coruscant",
+          "gravity": "1 standard",
+          "diameter": 12240,
+          "population": 1000000000000
+        },
+        {
+          "id": "cGxhbmV0czoxMA==",
+          "name": "Kamino",
+          "gravity": "1 standard",
+          "diameter": 19720,
+          "population": 1000000000
+        },
+        {
+          "id": "cGxhbmV0czoxMQ==",
+          "name": "Geonosis",
+          "gravity": "0.9 standard",
+          "diameter": 11370,
+          "population": 100000000000
+        },
+        {
+          "id": "cGxhbmV0czoxMg==",
+          "name": "Utapau",
+          "gravity": "1 standard",
+          "diameter": 12900,
+          "population": 95000000
+        },
+        {
+          "id": "cGxhbmV0czoxMw==",
+          "name": "Mustafar",
+          "gravity": "1 standard",
+          "diameter": 4200,
+          "population": 20000
+        },
+        {
+          "id": "cGxhbmV0czoxNA==",
+          "name": "Kashyyyk",
+          "gravity": "1 standard",
+          "diameter": 12765,
+          "population": 45000000
+        },
+        {
+          "id": "cGxhbmV0czoxNQ==",
+          "name": "Polis Massa",
+          "gravity": "0.56 standard",
+          "diameter": 0,
+          "population": 1000000
+        },
+        {
+          "id": "cGxhbmV0czoxNg==",
+          "name": "Mygeeto",
+          "gravity": "1 standard",
+          "diameter": 10088,
+          "population": 19000000
+        },
+        {
+          "id": "cGxhbmV0czoxNw==",
+          "name": "Felucia",
+          "gravity": "0.75 standard",
+          "diameter": 9100,
+          "population": 8500000
+        },
+        {
+          "id": "cGxhbmV0czoxOA==",
+          "name": "Cato Neimoidia",
+          "gravity": "1 standard",
+          "diameter": 0,
+          "population": 10000000
+        },
+        {
+          "id": "cGxhbmV0czoxOQ==",
+          "name": "Saleucami",
+          "gravity": "unknown",
+          "diameter": 14920,
+          "population": 1400000000
+        },
+        {
+          "id": "cGxhbmV0czoyMA==",
+          "name": "Stewjon",
+          "gravity": "1 standard",
+          "diameter": 0,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czoyMQ==",
+          "name": "Eriadu",
+          "gravity": "1 standard",
+          "diameter": 13490,
+          "population": 22000000000
+        },
+        {
+          "id": "cGxhbmV0czoyMg==",
+          "name": "Corellia",
+          "gravity": "1 standard",
+          "diameter": 11000,
+          "population": 3000000000
+        },
+        {
+          "id": "cGxhbmV0czoyMw==",
+          "name": "Rodia",
+          "gravity": "1 standard",
+          "diameter": 7549,
+          "population": 1300000000
+        },
+        {
+          "id": "cGxhbmV0czoyNA==",
+          "name": "Nal Hutta",
+          "gravity": "1 standard",
+          "diameter": 12150,
+          "population": 7000000000
+        },
+        {
+          "id": "cGxhbmV0czoyNQ==",
+          "name": "Dantooine",
+          "gravity": "1 standard",
+          "diameter": 9830,
+          "population": 1000
+        },
+        {
+          "id": "cGxhbmV0czoyNg==",
+          "name": "Bestine IV",
+          "gravity": "unknown",
+          "diameter": 6400,
+          "population": 62000000
+        },
+        {
+          "id": "cGxhbmV0czoyNw==",
+          "name": "Ord Mantell",
+          "gravity": "1 standard",
+          "diameter": 14050,
+          "population": 4000000000
+        },
+        {
+          "id": "cGxhbmV0czoyOA==",
+          "name": "unknown",
+          "gravity": "unknown",
+          "diameter": 0,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czoyOQ==",
+          "name": "Trandosha",
+          "gravity": "0.62 standard",
+          "diameter": 0,
+          "population": 42000000
+        },
+        {
+          "id": "cGxhbmV0czozMA==",
+          "name": "Socorro",
+          "gravity": "1 standard",
+          "diameter": 0,
+          "population": 300000000
+        },
+        {
+          "id": "cGxhbmV0czozMQ==",
+          "name": "Mon Cala",
+          "gravity": "1",
+          "diameter": 11030,
+          "population": 27000000000
+        },
+        {
+          "id": "cGxhbmV0czozMg==",
+          "name": "Chandrila",
+          "gravity": "1",
+          "diameter": 13500,
+          "population": 1200000000
+        },
+        {
+          "id": "cGxhbmV0czozMw==",
+          "name": "Sullust",
+          "gravity": "1",
+          "diameter": 12780,
+          "population": 18500000000
+        },
+        {
+          "id": "cGxhbmV0czozNA==",
+          "name": "Toydaria",
+          "gravity": "1",
+          "diameter": 7900,
+          "population": 11000000
+        },
+        {
+          "id": "cGxhbmV0czozNQ==",
+          "name": "Malastare",
+          "gravity": "1.56",
+          "diameter": 18880,
+          "population": 2000000000
+        },
+        {
+          "id": "cGxhbmV0czozNg==",
+          "name": "Dathomir",
+          "gravity": "0.9",
+          "diameter": 10480,
+          "population": 5200
+        },
+        {
+          "id": "cGxhbmV0czozNw==",
+          "name": "Ryloth",
+          "gravity": "1",
+          "diameter": 10600,
+          "population": 1500000000
+        },
+        {
+          "id": "cGxhbmV0czozOA==",
+          "name": "Aleen Minor",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czozOQ==",
+          "name": "Vulpter",
+          "gravity": "1",
+          "diameter": 14900,
+          "population": 421000000
+        },
+        {
+          "id": "cGxhbmV0czo0MA==",
+          "name": "Troiken",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo0MQ==",
+          "name": "Tund",
+          "gravity": "unknown",
+          "diameter": 12190,
+          "population": 0
+        },
+        {
+          "id": "cGxhbmV0czo0Mg==",
+          "name": "Haruun Kal",
+          "gravity": "0.98",
+          "diameter": 10120,
+          "population": 705300
+        },
+        {
+          "id": "cGxhbmV0czo0Mw==",
+          "name": "Cerea",
+          "gravity": "1",
+          "diameter": null,
+          "population": 450000000
+        },
+        {
+          "id": "cGxhbmV0czo0NA==",
+          "name": "Glee Anselm",
+          "gravity": "1",
+          "diameter": 15600,
+          "population": 500000000
+        },
+        {
+          "id": "cGxhbmV0czo0NQ==",
+          "name": "Iridonia",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo0Ng==",
+          "name": "Tholoth",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo0Nw==",
+          "name": "Iktotch",
+          "gravity": "1",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo0OA==",
+          "name": "Quermia",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo0OQ==",
+          "name": "Dorin",
+          "gravity": "1",
+          "diameter": 13400,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo1MA==",
+          "name": "Champala",
+          "gravity": "1",
+          "diameter": null,
+          "population": 3500000000
+        },
+        {
+          "id": "cGxhbmV0czo1MQ==",
+          "name": "Mirial",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo1Mg==",
+          "name": "Serenno",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo1Mw==",
+          "name": "Concord Dawn",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo1NA==",
+          "name": "Zolan",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo1NQ==",
+          "name": "Ojom",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": 500000000
+        },
+        {
+          "id": "cGxhbmV0czo1Ng==",
+          "name": "Skako",
+          "gravity": "1",
+          "diameter": null,
+          "population": 500000000000
+        },
+        {
+          "id": "cGxhbmV0czo1Nw==",
+          "name": "Muunilinst",
+          "gravity": "1",
+          "diameter": 13800,
+          "population": 5000000000
+        },
+        {
+          "id": "cGxhbmV0czo1OA==",
+          "name": "Shili",
+          "gravity": "1",
+          "diameter": null,
+          "population": null
+        },
+        {
+          "id": "cGxhbmV0czo1OQ==",
+          "name": "Kalee",
+          "gravity": "1",
+          "diameter": 13850,
+          "population": 4000000000
+        },
+        {
+          "id": "cGxhbmV0czo2MA==",
+          "name": "Umbara",
+          "gravity": "unknown",
+          "diameter": null,
+          "population": null
+        }
+      ]
+    }
+  }
+}
