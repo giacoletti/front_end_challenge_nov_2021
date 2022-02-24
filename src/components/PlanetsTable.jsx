@@ -24,7 +24,7 @@ const PlanetsTable = () => {
     fetchPlanets();
   }, []);
 
-  const planetsRows = planets.map((planet) => {
+  const planetsRows = planets.map((planet, index) => {
     return (
       <TableRow
         key={planet.id}
@@ -34,7 +34,9 @@ const PlanetsTable = () => {
           {planet.name}
         </TableCell>
         <TableCell align="right">{planet.gravity}</TableCell>
-        <TableCell align="right">{planet.diameter}</TableCell>
+        <TableCell data-cy={`pt-diameter-${index}`} align="right">
+          {planet.diameter}
+        </TableCell>
         <TableCell align="right">{planet.population}</TableCell>
       </TableRow>
     );
