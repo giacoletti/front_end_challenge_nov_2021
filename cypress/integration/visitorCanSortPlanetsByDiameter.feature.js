@@ -6,8 +6,9 @@ describe("A visitor can sort the planets by Diameter by clicking on its column h
       {
         fixture: "allPlanetsResponse"
       }
-    );
+    ).as("allPlanets");
     cy.visit("/");
+    cy.wait("@allPlanets");
     cy.get("[data-cy=pt-diameter-header]").click();
   });
 
@@ -16,6 +17,6 @@ describe("A visitor can sort the planets by Diameter by clicking on its column h
   });
 
   it("is expected to have last table entry with the biggest planet Diameter", () => {
-    cy.get("[data-cy=pt-diameter-59]").should("have.text", "BIGNUMBER");
+    cy.get("[data-cy=pt-diameter-59]").should("have.text", 118000);
   });
 });

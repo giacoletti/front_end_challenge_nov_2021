@@ -12,12 +12,31 @@ import {
 
 const PlanetsTable = () => {
   const [planets, setPlanets] = useState([]);
+  const [ascending, setAscending] = useState(true);
 
   const fetchPlanets = async () => {
     const response = await Planets.allPlanets();
     if (!response.message) {
       setPlanets(response);
     }
+  };
+
+  const orderByDiameter = () => {
+    const array = [...planets];
+    if (ascending) {
+      setPlanets(
+        array.sort((a, b) => {
+          return a.diameter - b.diameter;
+        })
+      );
+    } else {
+      setPlanets(
+        array.sort((a, b) => {
+          return b.diameter - a.diameter;
+        })
+      );
+    }
+    setAscending(!ascending);
   };
 
   useEffect(() => {
@@ -51,8 +70,12 @@ const PlanetsTable = () => {
             <TableCell data-cy="pt-gravity-header" align="right">
               Gravity
             </TableCell>
-            <TableCell data-cy="pt-diameter-header" align="right">
-              Diameter
+            <TableCell
+              onClick={orderByDiameter}
+              data-cy="pt-diameter-header"
+              align="right"
+            >
+              <span style={{ cursor: "pointer" }}>Diameter</span>
             </TableCell>
             <TableCell data-cy="pt-population-header" align="right">
               Population
